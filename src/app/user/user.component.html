@@ -1,0 +1,7 @@
+<div class="container">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control" id="username" [(ngModel)]="username">
+    <p>username is: {{ username }}</p>
+    <button type="button" id="saveBtn" class="btn-success btn-sm" (click)="saveBtn($event)">Save</button>
+</div>
+
